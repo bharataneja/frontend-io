@@ -1,0 +1,31 @@
+body{
+    background-color: #d5e1ef;
+    padding: 0;margin: 0;
+}
+.d-flex{
+display: flex;
+}
+.center-div
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.main-scan-wrapper
+{
+    // display: flex;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    width: 300px;
+    img{
+        width: 100%;
+        
+    }
+    h3,p{text-align: center;}
+    p{
+        color: #889098;
+    }
+}
